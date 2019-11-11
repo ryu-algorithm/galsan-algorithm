@@ -2,6 +2,7 @@
  This project is for studying Algorithm of Galsan-dong members.
  
  ![Alt text](./Tetris.png)
+ <br>
 <small>출처 : http://www.econovill.com/news/articleView.html?idxno=314816</small>
 
 **************
