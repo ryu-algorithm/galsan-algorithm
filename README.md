@@ -8,7 +8,7 @@
 **************
 ## Compile
 * Andrew : 크롬에 접속한다. 윈도우의 경우 ctrl+o, 맥의 경우 cmd+o 를 누르고 해당 파일을 연다. <br>
-           (1주차의 경우 : WWW/galsan-algorithm/andrew/src/week1/index.html)
+           (ex : 1주차의 경우 : WWW/galsan-algorithm/andrew/src/week1/index.html)
 
 
 **************
