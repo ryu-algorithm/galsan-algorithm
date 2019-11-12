@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     </head>
     <body>
         <div>
@@ -34,6 +35,14 @@
                 <input id="inputVal" class="inputTag" value="" type="number" placeholder="n 의 값을 입력하시오." name="nValue"/>
                 <button class ="button" type="submit" onclick="fibonacciFunc()">버튼</button>
                 <div id="fibonacciResult">정답:  </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>2번 문제</h2>
+            <p>Hello World!를 출력하시오.</p>
+            <div>
+                <div id="helloWorld">정답:  </div>
             </div>
         </div>
 
@@ -77,4 +86,9 @@
         var resultDom = document.getElementById('fibonacciResult');
         resultDom.innerHTML = "정답: " + result;//console.log(resultDom.value);
     }
+
+
+    document.ready(function(){
+
+    });
 </script>
