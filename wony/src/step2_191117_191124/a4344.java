@@ -1,8 +1,30 @@
-package algorithm;
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 17.
+ * @사용처
+ * @Todo
+ */
+
+package step2_191117_191124;
 
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 17.
+ * @사용처 재희 - 평균은 넘겠지
+ * @Todo
+ */
+
+public class a4344 {
+
+	/**
+	 * @작성자 wony
+	 * @작성일 2019. 11. 17.
+	 * @사용처
+	 * @param args
+	 * @Todo
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -34,8 +56,7 @@ public class Main {
 					count++;
 			}
 			
-//			System.out.println(String.format("%.3f%%", count*100/score.length));
-			System.out.format("%.3f%%\n", count*100/score.length);
+			System.out.println(String.format("%.3f%%", count*100/score.length));
 		}
 		
 		scanner.close();

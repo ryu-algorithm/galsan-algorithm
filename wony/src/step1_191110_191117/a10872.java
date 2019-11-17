@@ -5,14 +5,14 @@
  * @Todo
  */
 
-package step1;
+package step1_191110_191117;
 
 import java.util.Scanner;
 
 /**
  * @작성자 wony
  * @작성일 2019. 11. 8.
- * @사용처 10872 - 팩토리얼
+ * @사용처 병옥 - 팩토리얼
  * @Todo
  */
 
