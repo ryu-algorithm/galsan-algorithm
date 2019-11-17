@@ -1,0 +1,11 @@
+C:\Users\JH\source\repos\homework10872\homework10872\bin\Debug\netcoreapp3.0\homework10872.exe
+C:\Users\JH\source\repos\homework10872\homework10872\bin\Debug\netcoreapp3.0\homework10872.deps.json
+C:\Users\JH\source\repos\homework10872\homework10872\bin\Debug\netcoreapp3.0\homework10872.runtimeconfig.json
+C:\Users\JH\source\repos\homework10872\homework10872\bin\Debug\netcoreapp3.0\homework10872.runtimeconfig.dev.json
+C:\Users\JH\source\repos\homework10872\homework10872\bin\Debug\netcoreapp3.0\homework10872.dll
+C:\Users\JH\source\repos\homework10872\homework10872\bin\Debug\netcoreapp3.0\homework10872.pdb
+C:\Users\JH\source\repos\homework10872\homework10872\obj\Debug\netcoreapp3.0\homework10872.csprojAssemblyReference.cache
+C:\Users\JH\source\repos\homework10872\homework10872\obj\Debug\netcoreapp3.0\homework10872.AssemblyInfoInputs.cache
+C:\Users\JH\source\repos\homework10872\homework10872\obj\Debug\netcoreapp3.0\homework10872.AssemblyInfo.cs
+C:\Users\JH\source\repos\homework10872\homework10872\obj\Debug\netcoreapp3.0\homework10872.dll
+C:\Users\JH\source\repos\homework10872\homework10872\obj\Debug\netcoreapp3.0\homework10872.pdb
