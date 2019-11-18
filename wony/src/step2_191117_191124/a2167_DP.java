@@ -1,8 +1,30 @@
-package algorithm;
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 17.
+ * @사용처
+ * @Todo
+ */
+
+package step2_191117_191124;
 
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 17.
+ * @사용처 원희 - 2차원 배열의 합
+ * @Todo
+ */
+
+public class a2167_DP {
+
+	/**
+	 * @작성자 wony
+	 * @작성일 2019. 11. 17.
+	 * @사용처 DP 사용
+	 * @param args
+	 * @Todo
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,7 +34,7 @@ public class Main {
 		
 		for(int i = 0; i < mapXY.length; i++){
 			for(int j = 0; j< mapXY[0].length; j++){
-				mapXY[i][j] = scanner.nextInt();
+				mapXY[i][j] += scanner.nextInt();
 			}
 		}
 		
@@ -25,19 +47,6 @@ public class Main {
 			startY = scanner.nextInt();
 			endX = scanner.nextInt();
 			endY = scanner.nextInt();
-			System.out.println(mapXYSUM(mapXY, startX, startY, endX, endY));
 		}
 	}
-	
-	public static int mapXYSUM(int[][] mapXY, int startX, int startY, int endX, int endY){
-		int sum = 0;
-		
-		for(int i = startX; i<=endX; i++){
-			for(int j = startY; j<=endY; j++){
-				sum += mapXY[i-1][j-1];
-			}
-		}
-		return sum;
-	}
-
 }
