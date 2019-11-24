@@ -12,7 +12,7 @@
         <div>
             <ul>
                 <li class="link"><a href="https://www.acmicpc.net/problem/10870">Q. 1 피보나치 수열</a></li>
-                <li class="link"><a href="https://www.acmicpc.net/problem/2908">Q. 2 상</a></li>
+                <li class="link"><a href="https://www.acmicpc.net/problem/2908">Q. 2 상근이</a></li>
                 <li class="link"><a href="https://www.acmicpc.net/problem/1463">Q. 3 1로 만들기</a></li>
                 <li class="link"><a href="https://www.acmicpc.net/problem/10872">Q. 4 팩토리얼</a></li>
             </ul>
@@ -172,93 +172,35 @@
 		return third*100 + twice*10 + first;
 	}
 
-    // 3번 문제
+    // 3번 문제  미해결
     function getCalculationNum(){
     	var xValue = document.getElementById('intX').value;console.log(xValue);
-        var count1 = 0;// 계산 횟수
-		var count2 = 0;
-		var count3 = 0;
-		var count4 = 0;
-		var count5 = 0;
-		var count6 = 0;
+        var count = 0;// 계산 횟수
 
         if(xValue < 1 || xValue >= 1000000 || xValue % 1 !== 0) {
         	alert('조건 : 첫째 줄에 1보다 크거나 같고, 10^6보다 작거나 같은 정수 N이 주어진다!');
         	document.getElementById('intX').value='';
         } else {
         	while (xValue > 1) {
+				console.log(xValue % 3 === 0);
+				console.log(xValue % 2 === 0);
+				console.log(xValue%2 !== 0 && xValue%3 !== 0);
+
                 if (xValue % 3 === 0) {
                     xValue = xValue / 3;
-                    count1++;
+                    count++;
                 } else if (xValue % 2 === 0) {
                     xValue = xValue / 2;
-                    count1++;
-                } else {
+                    count++;
+                } else if(xValue%2 !== 0 && xValue%3 !== 0){
                     xValue = xValue - 1;
-                    count1++;
+                    count++;
                 }
 
-				if (xValue % 3 === 0) {
-					xValue = xValue / 3;
-					count2++;
-				} else if (xValue % 2 === 0) {
-					xValue = xValue / 2;
-					count2++;
-				} else {
-					xValue = xValue - 1;
-					count2++;
-				}
+				console.log(count+'-----'+xValue);
 
-				if (xValue % 3 === 0) {
-					xValue = xValue / 3;
-					count3++;
-				} else if (xValue % 2 === 0) {
-					xValue = xValue / 2;
-					count3++;
-				} else {
-					xValue = xValue - 1;
-					count3++;
-				}
-
-				if (xValue % 3 === 0) {
-					xValue = xValue / 3;
-					count4++;
-				} else if (xValue % 2 === 0) {
-					xValue = xValue / 2;
-					count4++;
-				} else {
-					xValue = xValue - 1;
-					count4++;
-				}
-
-				if (xValue % 3 === 0) {
-					xValue = xValue / 3;
-					count5++;
-				} else if (xValue % 2 === 0) {
-					xValue = xValue / 2;
-					count5++;
-				} else {
-					xValue = xValue - 1;
-					count5++;
-				}
-
-				if (xValue % 3 === 0) {
-					xValue = xValue / 3;
-					count6++;
-				} else if (xValue % 2 === 0) {
-					xValue = xValue / 2;
-					count6++;
-				} else {
-					xValue = xValue - 1;
-					count6++;
-				}
-            }
-			console.log(count1);
-			console.log(count2);
-			console.log(count3);
-			console.log(count4);
-			console.log(count5);
-			console.log(count6);
+			}
+			console.log(count);
             document.getElementById('calculationNum').innerHTML = '정답 :';
         }
     }
