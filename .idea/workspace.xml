@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0294bb6e-edff-47a0-b17c-149a79d5ff4c" name="Default Changelist" comment="">
+    <list default="true" id="0294bb6e-edff-47a0-b17c-149a79d5ff4c" name="Default Changelist" comment="by byengock algoritm">
+      <change afterPath="$PROJECT_DIR$/andrew/src/week2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/andrew/src/week1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/andrew/src/week1/index.html" afterDir="false" />
     </list>
@@ -15,31 +16,31 @@
     <session id="-809909462">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="3" />
           <entry key="java" value="1" />
           <entry key="js" value="2" />
           <entry key="json" value="4" />
           <entry key="map" value="1" />
-          <entry key="md" value="3" />
-          <entry key="png" value="1" />
+          <entry key="md" value="4" />
+          <entry key="png" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="2" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SourceMap" value="1" />
           <entry key="XML" value="1" />
@@ -47,45 +48,68 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4842" />
+          <entry key="html" value="5662" />
           <entry key="md" value="1" />
-          <entry key="txt" value="56" />
+          <entry key="txt" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4842" />
+          <entry key="HTML" value="5662" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="PLAIN_TEXT" value="76" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/andrew/src/week1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/andrew/node_modules/jquery/src/jquery.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.75418997">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/andrew/src/week2/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+                  <folding>
+                    <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/andrew/node_modules/jquery/src/jquery.js">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/andrew/src/week1/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="80" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+                  <folding>
+                    <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sangguenNum1</find>
+      <find>q1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,6 +120,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/andrew/src/week1/index.html" />
+        <option value="$PROJECT_DIR$/andrew/src/week2/index.html" />
       </list>
     </option>
   </component>
@@ -127,6 +152,24 @@
             <path>
               <item name="galsan-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="galsan-algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galsan-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galsan-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="andrew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galsan-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galsan-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="andrew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galsan-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galsan-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="andrew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="galsan-algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -174,7 +217,9 @@
       <updated>1573485723410</updated>
       <workItem from="1573485724997" duration="6090000" />
       <workItem from="1573742773721" duration="3400000" />
-      <workItem from="1573831217564" duration="4317000" />
+      <workItem from="1573831217564" duration="5532000" />
+      <workItem from="1574266447753" duration="1424000" />
+      <workItem from="1574443409274" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="by byengock">
       <created>1573492831579</created>
@@ -197,16 +242,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573581537457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="by byengock algoritm">
+      <created>1573979854694</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573979854694</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22118000" />
+    <option name="totallyTimeSpent" value="27670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17668097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1037196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,10 +270,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49713877" visible="true" weight="0.27137548" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49570817" visible="true" weight="0.33828998" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32961586" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.27137548" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50429183" side_tool="true" visible="true" weight="0.33828998" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -238,12 +291,10 @@
     <MESSAGE value="by byengock" />
     <MESSAGE value="by byengock node modules install" />
     <MESSAGE value="by byengock node modules install for jquery" />
-    <option name="LAST_COMMIT_MESSAGE" value="by byengock node modules install for jquery" />
+    <MESSAGE value="by byengock algoritm" />
+    <option name="LAST_COMMIT_MESSAGE" value="by byengock algoritm" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tetris.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wony/src/step1/a1463.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -258,16 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/andrew/node_modules/jquery/dist/core.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -279,8 +320,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/andrew/node_modules/jquery/dist/jquery.min.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/andrew/node_modules/jquery/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -289,10 +330,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/andrew/node_modules/jquery/src/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tetris.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/andrew/src/week1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="16" column="80" lean-forward="true" selection-start-line="16" selection-end-line="17" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#!!top" />
@@ -300,8 +357,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/andrew/node_modules/jquery/src/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/andrew/src/week2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
