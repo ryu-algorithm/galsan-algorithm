@@ -1,9 +1,29 @@
-package algorithm;
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 18.
+ * @사용처
+ *
+ */
+package step2_191117_191124;
 
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 18.
+ * @사용처 유기농 배추
+ * 
+ */
+public class a1012 {
 
+	/**
+	 * @작성자 wony
+	 * @작성일 2019. 11. 18.
+	 * @사용처
+	 * @Todo
+	 * @param args
+	 * 
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
@@ -67,4 +87,5 @@ public class Main {
 				filedZero(filed, j, k+1);
 			}
 	}
+
 }
