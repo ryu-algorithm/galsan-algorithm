@@ -1,11 +1,31 @@
-package algorithm;
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 26.
+ * @사용처
+ *
+ */
+package step3_191124_191131;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @작성자 wony
+ * @작성일 2019. 11. 26.
+ * @사용처 회전하는 큐
+ * 
+ */
+public class a1021 {
 
+	/**
+	 * @작성자 wony
+	 * @작성일 2019. 11. 26.
+	 * @사용처
+	 * @Todo
+	 * @param args
+	 * 
+	 */
 	static int minCount = 0;
 	
 	public static void main(String[] args) {
@@ -62,4 +82,5 @@ public class Main {
 			return offlastDeque;
 		}
 	}
+
 }
