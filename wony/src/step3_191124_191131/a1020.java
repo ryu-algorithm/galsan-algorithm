@@ -26,13 +26,12 @@ public class a1020 {
 	 * @param args
 	 * 
 	 */
+	static Map<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		String count = scanner.nextLine();
-		String[] countLine = count.split("");
-		
-		Map<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
 		
 		hashMap.put(1, 2);
 		hashMap.put(2, 5);
@@ -45,18 +44,21 @@ public class a1020 {
 		hashMap.put(9, 5);
 		hashMap.put(0, 6);
 		
+		int firstNum = sumSet(count);
+		
 		int countNum = Integer.parseInt(count);
-		int inputNum = 0;
-		int second = 0;
-		for(int i = 0; i < countLine.length; i++){
-			inputNum += hashMap.get(Integer.parseInt(countLine[i]));
+	}
+	
+	public static int sumSet(String count){
+		
+		int sum = 0;
+		
+		String[] countNumSet = count.split("");
+		
+		for(int i = 0; i < countNumSet.length; i++){
+			sum += hashMap.get(Integer.parseInt(countNumSet[i]));
 		}
 		
-		if(countNum == inputNum)
-			System.out.println(second);
-		else{
-			second++;
-			countNum++;
-		}
+		return sum;
 	}
 }
