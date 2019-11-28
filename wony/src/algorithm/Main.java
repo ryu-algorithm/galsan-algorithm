@@ -1,65 +1,57 @@
 package algorithm;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
-	static int minCount = 0;
+	static int[] lineNum = new int[]{6,2,5,5,4,5,6,3,7,5}; 
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Scanner scanner = new Scanner(System.in);
+		String count = scanner.nextLine();
+		int firstNum = sumSet(count);
+		int second = 0;
 		
-		int nCount = scanner.nextInt();
-		int outPutCount = scanner.nextInt();
-		int[] orderCount = new int[outPutCount];
-		for(int i = 0; i < outPutCount; i++)
-			orderCount[i] = scanner.nextInt();
+		String countNext = numSet(count);
+		while(true){
+			second++;
+			if(firstNum == sumSet(countNext)){
+				System.out.println(second);
+				break;
+			}
+			countNext = numSet(countNext);
+		}
 		
 		scanner.close();
 		
-		Deque<Integer> deque = new ArrayDeque<Integer>();
-		
-		for(int i = 1; i <= nCount; i++)
-			deque.offer(i);
-		
-		for(int i = 0; i < outPutCount; i++)
-			deque = rotateDeq(deque, orderCount[i]);
-		
-		System.out.println(minCount);
-		
 	}
-	
-	public static Deque<Integer> rotateDeq(Deque<Integer> deque, int order){
-		Deque<Integer> offDeque = new ArrayDeque<Integer>();
-		Deque<Integer> offlastDeque = new ArrayDeque<Integer>();
-		offDeque.addAll(deque);
-		offlastDeque.addAll(deque);
+	public static int sumSet(String count){
 		
-		int pollCount = 0;
-		int lastpollCount = 0;
+		int sum = 0;
 		
-		while(offDeque.peek() != order){
-			pollCount++;
-			offDeque.offer(offDeque.poll());
+		String[] countNumSet = count.split("");
+		
+		for(int i = 0; i < countNumSet.length; i++){
+			sum += lineNum[Integer.parseInt(countNumSet[i])];
 		}
-		offDeque.poll();
 		
-		while(offlastDeque.peek() != order){
-			lastpollCount++;
-			offlastDeque.push(offlastDeque.pollLast());
-		}
-		offlastDeque.poll();
+		return sum;
+	}
+	public static String numSet(String count){
 		
-		if(pollCount < lastpollCount){
-			minCount += pollCount;
-			return offDeque;
-		}else{
-			minCount += lastpollCount;
-			return offlastDeque;
-		}
+		long countNum = Long.valueOf(count);
+		int countlen = count.length();
+		countNum++;
+		String countNext = String.valueOf(countNum);
+		long countNextlen = countNext.length();
+		
+		if(countlen >= countNextlen){
+			for(int i = 0; i < countlen - countNextlen; i++)
+				countNext = "0" + countNext;
+		}else
+			countNext = String.format("%0"+countlen+"d", 0);
+		
+		return countNext;
 	}
 }

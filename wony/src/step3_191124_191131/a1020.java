@@ -6,8 +6,6 @@
  */
 package step3_191124_191131;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -26,39 +24,73 @@ public class a1020 {
 	 * @param args
 	 * 
 	 */
-	static Map<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
+	static int[] lineNum = new int[]{6,2,5,5,4,5,6,3,7,5}; 
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		String count = scanner.nextLine();
+		int firstNum = sumSet(count.split(""));
+		int second = 0;
 		
-		hashMap.put(1, 2);
-		hashMap.put(2, 5);
-		hashMap.put(3, 5);
-		hashMap.put(4, 4);
-		hashMap.put(5, 5);
-		hashMap.put(6, 6);
-		hashMap.put(7, 3);
-		hashMap.put(8, 7);
-		hashMap.put(9, 5);
-		hashMap.put(0, 6);
+		String countNext = numSet(count);
 		
-		int firstNum = sumSet(count);
+		while(true){
+			second++;
+			if(firstNum == sumSet(countNext.split(""))){
+				System.out.println(second);
+				break;
+			}
+			countNext = numSet(countNext);
+		}
 		
-		int countNum = Integer.parseInt(count);
+		scanner.close();
+		
 	}
 	
-	public static int sumSet(String count){
+	/**
+	 * @작성자 wony
+	 * @작성일 2019. 11. 27.
+	 * @사용처 선분 개수 구하는 함수
+	 * @Todo
+	 * @param count
+	 * @return
+	 * 
+	 */
+	public static int sumSet(String[] countNumSet){
 		
 		int sum = 0;
 		
-		String[] countNumSet = count.split("");
-		
 		for(int i = 0; i < countNumSet.length; i++){
-			sum += hashMap.get(Integer.parseInt(countNumSet[i]));
+			sum += lineNum[Integer.parseInt(countNumSet[i])];
 		}
 		
 		return sum;
+	}
+	
+	/**
+	 * @작성자 wony
+	 * @작성일 2019. 11. 27.
+	 * @사용처 다음숫자(String) 구하는 함수
+	 * @Todo
+	 * @param count
+	 * @return
+	 * 
+	 */
+	public static String numSet(String count){
+		
+		long countNum = Long.valueOf(count);
+		int countlen = count.length();
+		countNum++;
+		String countNext = String.valueOf(countNum);
+		long countNextlen = countNext.length();
+		
+		if(countlen >= countNextlen){
+			for(int i = 0; i < countlen - countNextlen; i++)
+				countNext = "0" + countNext;
+		}else
+			countNext = String.format("%0"+countlen+"d", 0);
+		
+		return countNext;
 	}
 }
