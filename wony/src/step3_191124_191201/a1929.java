@@ -4,7 +4,7 @@
  * @사용처
  *
  */
-package step3_191124_191131;
+package step3_191124_191201;
 
 import java.util.Scanner;
 
@@ -43,7 +43,6 @@ public class a1929 {
 		decimalCheck(decimalFiled);
 //		SieveOfEratosthenes(decimalFiled);
 		
-		System.out.println(Math.pow(100000000,2));
 		/*
 		 * 0또는 1일경우 제외
 		 * */
@@ -61,7 +60,7 @@ public class a1929 {
 		}
 	}
 	
-	//처음 설계 함수
+	//두번째 설계 함수
 	public static void SieveOfEratosthenes(int[] decimalFiled){
 		for(int i = 2; i < decimalFiled.length; i++){
 			for(int j = i*i; j < decimalFiled.length; j += i) // i아래의 숫자들은 다 계산된값이기에 i*i로 개선, 값의 크기에 따라 int형이아닌 double형을 선언
