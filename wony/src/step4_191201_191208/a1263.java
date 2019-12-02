@@ -1,12 +1,34 @@
-package algorithm;
+/**
+ * @작성자 wony
+ * @작성일 2019. 12. 2.
+ * @사용처
+ *
+ */
+package step4_191201_191208;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Scanner;
 
-public class Main {
+/**
+ * @작성자 wony
+ * @작성일 2019. 12. 2.
+ * @사용처 재희 - 시간 관리
+ * 
+ */
+public class a1263 {
 
+	/**
+	 * @작성자 wony
+	 * @작성일 2019. 12. 2.
+	 * @사용처
+	 * @Todo
+	 * @param args
+	 * 
+	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		int testCount = scanner.nextInt();
@@ -41,5 +63,6 @@ public class Main {
 		
 		if(count == -1) System.out.println(-1);
 		else System.out.println(count);
+		
 	}
 }
