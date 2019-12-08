@@ -27,16 +27,29 @@ public class a1025 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		int m = scanner.nextInt();
 		
-		int[][] filed = new int[scanner.nextInt()][scanner.nextInt()];
+		int[][] filed = new int[n][m];
 		scanner.nextLine();
 		String[] dataArray;
-		for(int i = 0; i < filed.length; i++){
+		for(int i = 0; i < n; i++){
 			dataArray = scanner.nextLine().split("");
-			for(int j = 0; j < filed[0].length; j++)
+			for(int j = 0; j < m; j++)
 				filed[i][j] = Integer.parseInt(dataArray[j]);
 		}
 		scanner.close();
+		
+		for(int i = 0; i < n; i++) {
+			for(int j = 0; j < m; j++) {
+				for(int k = 0; k < n; k++) {
+					for(int l = 0; l < m; l++) {
+						if( i + k < n) {
+						}
+					}
+				}
+			}
+		}
 		
 		System.out.println(FindSequenceNum(filed));
 	}
