@@ -1,1 +1,7 @@
+#FOLDER
 /bin/
+
+#FILE
+/.classpath
+/.project
+/.gitignore
